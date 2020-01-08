@@ -18,7 +18,7 @@ spec:
         run: my-webapp
     spec:
       containers:
-      - image: kodekloud/simple-webapp-color
+      - image: nginx
         name: my-webapp
         resources: {}
 status: {}
